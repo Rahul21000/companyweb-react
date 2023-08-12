@@ -1,0 +1,64 @@
+.Hire-callback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  width: 950px;
+  height: 200px;
+  margin: 50px auto;
+  gap: 150px;
+}
+/* .rectangle-7 {
+  position: relative;
+  left: 620px;
+  top: 310px;
+  width: 530px;
+  height: 530px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    #9075f7 0.01%,
+    #ce4da4 0.02%,
+    #8a79ff 100%
+  );
+}  */
+
+.start-hiring {
+  width: 283px;
+  height: 70px;
+  background-color: #13111a;
+  border: 3px solid;
+  border-color: 2px solid #ffffff;
+  /* border-image: linear-gradient(
+        to bottom,
+        rgb(115, 83, 229),
+        rgb(206, 77, 164) 50%,
+        rgb(206, 77, 164) 100%
+      )
+      1; */
+  border-radius: 45.32px;
+}
+
+.book-call {
+  width: 283px;
+  height: 70px;
+  background-color: #302c3f;
+  border: 3px solid;
+  border-color: transparent;
+  border-radius: 45.32px;
+ 
+}
+.text-wrapper-10 {
+  color: #ffffff;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 22.7px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  margin: 20px 70px;
+ 
+}

@@ -1,0 +1,115 @@
+/* .box-1 {
+    width: 500px;
+    height: 651px;
+    flex-shrink: 0;
+    border: 5px rgb(160, 45, 45);
+  } */
+
+.rectangle {
+  -webkit-backdrop-filter: blur(100px) brightness(100%);
+  backdrop-filter: blur(100px) brightness(100%);
+  background-color: #18162099;
+  border: 2px solid;
+  border-color: #ffffff33;
+  border-radius: 30px;
+  box-shadow: 10px 10px 50px #00000080;
+  height: 651px;
+  width: 950px;
+  margin: auto;
+}
+.ellipse-1 {
+  background-color: #ff5f56;
+  border-radius: 7.5px;
+  height: 15px;
+  position: relative;
+  left: 0;
+  width: 15px;
+}
+
+.ellipse-2 {
+  background-color: #f8d345;
+  border-radius: 7.5px;
+  height: 15px;
+  position: relative;
+  left: 30px;
+  width: 15px;
+}
+
+.ellipse-3 {
+  background-color: #89d85d;
+  border-radius: 7.5px;
+  height: 15px;
+  position: relative;
+  left: 60px;
+  width: 15px;
+}
+.ractangle-1 {
+  height: 17px;
+  width: 182px;
+  border-radius: 30px;
+  background: #726c86;
+  flex-shrink: 0;
+  margin: 10px;
+}
+.Rectanglegroup {
+  height: 140px;
+  width: 180px;
+  margin: 2px;
+}
+/* .rectangle-2 {
+    width: 300px;
+    height: 256.299px;
+    flex-shrink: 0;
+  }
+  .rectangle-2 {
+    border-radius: 23.622px;
+    border: 2.362px solid #fff;
+    background: #181620;
+    box-shadow: 11.811023712158203px 11.811023712158203px 59.055118560791016px 0px
+      rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5.905511856079102px);
+  } */
+.verline-1 {
+  width: 2px;
+  height: 589px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+  left: 170px;
+  
+}
+.verline-2 {
+  width: 2px;
+  height: 589px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+  left: 270px;
+}
+.rectangle-4 {
+  /* position: relative;
+  left: 180px;
+  top: 30px; */
+}
+.rectangleuser {
+  width: 250px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(80, 73, 106, 0.2);
+  backdrop-filter: blur(5px);
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+.img-1 {
+  width: 96px;
+  height: 82px;
+  flex-shrink: 0;
+}
+.rectangleusergroup {
+    display: inline;
+  
+}

@@ -1,0 +1,122 @@
+.logo {
+  height: 75px;
+  width: fit-content;
+
+}
+
+.hamburger {
+  display: none;
+}
+ul {
+  list-style-type: none;
+}
+.text-wrapper {
+  font-family: "Poppins-Bold", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.nav {
+  border: 1px none;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  min-height: 38px;
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+.nav li {
+  display: inline;
+  margin: 20px;
+  
+}
+.nav a {
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  width: fit-content;
+}
+
+.hire-now {
+  height: 45px;
+  width: 169px;
+}
+.hire-now .overlap-group {
+  background-color: #13111a;
+  border: 2px solid;
+  /* border-color: transparent; */
+  border-image: linear-gradient(to right, rgb(115, 83, 229));
+  border-radius: 50px;
+  box-shadow: 0px 20px 50px #00000080;
+  height: 49px;
+  left: -2px;
+  position: relative;
+  top: -2px;
+  width: 173px;
+}
+
+.hire-now .text-wrapper-1 {
+  color: #ffffff;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  white-space: nowrap;
+  width: 116px;
+  background-color: transparent;
+  border: none;
+}
+.deviceview {
+  display: none;
+}
+
+.deviceview {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@media (max-width: 659px) {
+  .nav {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 0px;
+  }
+  .nav-link {
+    display: none;
+  }
+  .logo {
+    left: 0px;
+    /* flex: 1;
+    align-self: center; */
+  }
+  .deviceview {
+    list-style-type: none;
+    position: absolute;
+    right: 0px;
+  }
+  .deviceview li {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .hire-now{
+    position: relative;
+    right: 100px;
+  }
+}
